@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta content="text/html; charset=utf-8"/><meta></meta>
+      </head>
       <body id="root" className={inter.className} style={{backgroundImage:`url(${bgimage.src})`}}>
         {children}
       </body>
