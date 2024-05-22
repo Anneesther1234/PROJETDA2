@@ -10,7 +10,6 @@ import { useEffect, useState } from 'react';
 import {  formAuthentification } from '../../lib/actionConnexion';
 import FormError from "../components/ui/FormError"
 import FormSucess from "../components/ui/FormSucess"
-import { signIn } from '../../auth';
 import { useRouter } from 'next/navigation';
 import getInfo from '../../lib/api/getInfo';
 
